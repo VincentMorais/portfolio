@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" fill="none">
+
+  <!-- Costume gris clair -->
+  <path d="M0 220 L0 172 L52 152 L74 163 L100 156 L126 163 L148 152 L200 172 L200 220 Z" fill="#CCCAC6"/>
+  <!-- Revers gauche -->
+  <path d="M52 152 L74 163 L100 156 L96 180 L60 175 L40 190 L0 172 Z" fill="#B8B6B2"/>
+  <!-- Revers droit -->
+  <path d="M148 152 L126 163 L100 156 L104 180 L140 175 L160 190 L200 172 Z" fill="#B8B6B2"/>
+  <!-- Chemise blanche -->
+  <path d="M82 156 L100 150 L118 156 L114 168 L100 160 L86 168 Z" fill="#F0EEE8"/>
+  <!-- Cravate -->
+  <path d="M93 156 L100 150 L107 156 L104 170 L100 178 L96 170 Z" fill="#AAAAAA"/>
+
+  <!-- Cou -->
+  <rect x="85" y="137" width="30" height="22" rx="4" fill="#F0CCAA"/>
+
+  <!-- Tête -->
+  <ellipse cx="100" cy="96" rx="62" ry="70" fill="#F0CCAA"/>
+
+  <!-- Cheveux sur les côtés (plus courts) -->
+  <ellipse cx="39" cy="83" rx="12" ry="32" fill="#B83A0E"/>
+  <ellipse cx="161" cy="83" rx="12" ry="32" fill="#B83A0E"/>
+
+  <!-- Cheveux bouclés sur le dessus — silhouette bosselée -->
+  <path d="
+    M38 70
+    C40 38 52 16 72 10
+    Q76 4  82 9
+    Q86 2  92 7
+    Q97 1  102 6
+    Q107 1 113 7
+    Q118 2 124 9
+    Q138 12 152 28
+    C160 40 162 55 162 70
+    L154 73
+    C152 52 146 36 136 24
+    Q126 12 116 14
+    Q112 8  107 12
+    Q102 7  97 12
+    Q92 7   87 12
+    Q77 10  68 22
+    C56 35 47 52 46 73 Z
+  " fill="#B83A0E"/>
+
+  <!-- Visage (par-dessus les côtés des cheveux) -->
+  <ellipse cx="100" cy="101" rx="52" ry="60" fill="#F0CCAA"/>
+
+  <!-- Oreilles -->
+  <ellipse cx="48" cy="98" rx="9" ry="12" fill="#F0CCAA"/>
+  <ellipse cx="152" cy="98" rx="9" ry="12" fill="#F0CCAA"/>
+
+  <!-- AirPod gauche (discret) -->
+  <ellipse cx="40" cy="100" rx="4" ry="5" fill="#E8E6E2"/>
+  <rect x="38" y="104" width="4" height="6" rx="2" fill="#E8E6E2"/>
+
+  <!-- Barbe rousse complète -->
+  <path d="M49 122 C47 157 70 178 100 180 C130 178 153 157 151 122 L141 119 C139 150 126 166 100 168 C74 166 61 150 59 119 Z" fill="#B83A0E"/>
+
+  <!-- Moustache -->
+  <path d="M75 121 C83 115 92 117 100 119 C108 117 117 115 125 121 C120 127 109 128 100 126 C91 128 80 127 75 121 Z" fill="#B83A0E"/>
+
+  <!-- Yeux -->
+  <ellipse cx="79" cy="95" rx="10" ry="8" fill="#FFFFFF"/>
+  <circle cx="80" cy="95" r="5.5" fill="#1E0A04"/>
+  <circle cx="78.5" cy="93.5" r="1.8" fill="#FFFFFF"/>
+
+  <ellipse cx="121" cy="95" rx="10" ry="8" fill="#FFFFFF"/>
+  <circle cx="122" cy="95" r="5.5" fill="#1E0A04"/>
+  <circle cx="120.5" cy="93.5" r="1.8" fill="#FFFFFF"/>
+
+  <!-- Sourcils auburn -->
+  <path d="M66 81 Q79 74 91 80" stroke="#8A2808" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M109 80 Q121 74 134 81" stroke="#8A2808" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Nez -->
+  <path d="M95 108 L90 121 Q100 125 110 121 L105 108" stroke="#D4A882" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- LUNETTES -->
+  <!-- Teinte verres -->
+  <rect x="60" y="86" width="38" height="26" rx="5" fill="rgba(160,200,230,0.10)"/>
+  <rect x="102" y="86" width="38" height="26" rx="5" fill="rgba(160,200,230,0.10)"/>
+  <!-- Monture gauche -->
+  <rect x="60" y="86" width="38" height="26" rx="5" stroke="#1A1A1A" stroke-width="2.8" fill="none"/>
+  <!-- Monture droite -->
+  <rect x="102" y="86" width="38" height="26" rx="5" stroke="#1A1A1A" stroke-width="2.8" fill="none"/>
+  <!-- Pont nez -->
+  <path d="M98 98 Q100 95 102 98" stroke="#1A1A1A" stroke-width="2" fill="none"/>
+  <!-- Branches -->
+  <line x1="60" y1="98" x2="47" y2="98" stroke="#1A1A1A" stroke-width="2.2"/>
+  <line x1="140" y1="98" x2="153" y2="98" stroke="#1A1A1A" stroke-width="2.2"/>
+
+</svg>
