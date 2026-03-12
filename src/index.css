@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  cursor: none;
-}
 
 :root {
   scroll-behavior: smooth;

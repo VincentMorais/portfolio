@@ -1,7 +1,6 @@
 import { useRef } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import { LanguageProvider, useLanguage } from './context/LanguageContext'
-import CustomCursor from './components/CustomCursor'
 import Aurora from './components/Aurora'
 import Galaxy from './components/Galaxy'
 import Navbar from './components/Navbar'
@@ -22,7 +21,6 @@ function PageContent() {
     <div className="relative bg-bg min-h-screen">
       <Galaxy />
       <Aurora />
-      <CustomCursor />
       <Navbar />
 
       {/* Flash overlay on language switch */}
