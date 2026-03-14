@@ -10,16 +10,18 @@ import Experience from './components/Experience'
 import Skills from './components/Skills'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import { useIsMobile } from './hooks/useIsMobile'
 
 function PageContent() {
   const { lang } = useLanguage()
   const prevLang = useRef(lang)
   const isChanging = prevLang.current !== lang
   if (isChanging) prevLang.current = lang
+  const isMobile = useIsMobile()
 
   return (
     <div className="relative bg-bg min-h-screen">
-      <Galaxy />
+      {!isMobile && <Galaxy />}
       <Aurora />
       <Navbar />
 

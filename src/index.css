@@ -17,6 +17,19 @@ body {
   font-family: 'Inter', sans-serif;
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: pan-y;
+}
+
+@media (max-width: 767px) {
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Disable heavy transitions on mobile */
+  .fixed {
+    transform: translateZ(0);
+  }
 }
 
 ::-webkit-scrollbar { width: 4px; }

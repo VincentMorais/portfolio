@@ -1,5 +1,6 @@
 import { useRef, useState, ReactNode } from 'react'
 import { motion } from 'framer-motion'
+import { useIsMobile } from '../hooks/useIsMobile'
 
 interface Props {
   children: ReactNode
@@ -10,6 +11,11 @@ interface Props {
 export default function MagneticButton({ children, strength = 0.3, className = 'inline-block' }: Props) {
   const ref = useRef<HTMLDivElement>(null)
   const [pos, setPos] = useState({ x: 0, y: 0 })
+  const isMobile = useIsMobile()
+
+  if (isMobile) {
+    return <div className={className}>{children}</div>
+  }
 
   const onMouseMove = (e: React.MouseEvent) => {
     if (!ref.current) return

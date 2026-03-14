@@ -1,4 +1,5 @@
 import { useMemo } from 'react'
+import { useIsMobile } from '../hooks/useIsMobile'
 
 interface Star {
   x: number
@@ -25,7 +26,8 @@ function generateStars(count: number): Star[] {
 }
 
 export default function Stars() {
-  const stars = useMemo(() => generateStars(220), [])
+  const isMobile = useIsMobile()
+  const stars = useMemo(() => generateStars(isMobile ? 80 : 220), [isMobile])
 
   return (
     <div className="fixed inset-0 z-0 pointer-events-none overflow-hidden">

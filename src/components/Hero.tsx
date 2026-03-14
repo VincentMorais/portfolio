@@ -79,7 +79,7 @@ export default function Hero() {
     <section className="min-h-screen flex flex-col justify-center px-6 pt-24 pb-16 relative overflow-hidden">
 
       {/* Planet decoration */}
-      <div className="absolute -right-24 top-1/2 -translate-y-1/2 pointer-events-none select-none opacity-[0.12]" aria-hidden>
+      <div className="hidden md:block absolute -right-24 top-1/2 -translate-y-1/2 pointer-events-none select-none opacity-[0.12]" aria-hidden>
         <svg width="520" height="520" viewBox="0 0 520 520" fill="none">
           <defs>
             <radialGradient id="planetGrad" cx="40%" cy="35%" r="60%">
